@@ -50,3 +50,12 @@ URxvt.scrollBar_right: false
 URxvt.urgentOnBell: true
 URxvt.depth: 24
 URxvt.iso14755: false
+
+!Copy-Paste using perl
+URxvt.keysym.Shift-Control-V: perl:clipboard:paste
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
+
+URxvt.keysym.Shift-Control-C: perl:clipboard:copy
+URxvt.iso14755: False
+URxvt.perl-ext-common: default,clipboard
